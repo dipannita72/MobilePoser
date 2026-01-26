@@ -7,7 +7,7 @@ import lightning as L
 from torch.optim.lr_scheduler import StepLR 
 
 from mobileposer.articulate.model import ParametricModel
-from mobileposer.models.rnn import RNN
+from .rnn import RNN
 from mobileposer.config import *
 
 

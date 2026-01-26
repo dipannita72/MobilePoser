@@ -8,7 +8,7 @@ import numpy as np
 from mobileposer.config import *
 from mobileposer.utils.model_utils import reduced_pose_to_full
 import mobileposer.articulate as art
-from mobileposer.models.rnn import RNN
+from .rnn import RNN
 
 
 class Poser(L.LightningModule):

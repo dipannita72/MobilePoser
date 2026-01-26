@@ -13,10 +13,10 @@ from mobileposer.config import *
 from mobileposer.utils.model_utils import reduced_pose_to_full
 from mobileposer.helpers import *
 import mobileposer.articulate as art
-from mobileposer.models.poser import Poser
-from mobileposer.models.joints import Joints
-from mobileposer.models.footcontact import FootContact
-from mobileposer.models.velocity import Velocity
+from .poser import Poser
+from .joints import Joints
+from .footcontact import FootContact
+from .velocity import Velocity
 
 
 class MobilePoserNet(L.LightningModule):
